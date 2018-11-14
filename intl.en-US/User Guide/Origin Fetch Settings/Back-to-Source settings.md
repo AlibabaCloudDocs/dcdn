@@ -16,10 +16,7 @@ You can configure the domain name of the web server to be accessed during the or
 
 1.  On the Domain Names page, select a domain name, and click **Configure**.
 2.  Go to **Origin Fetch** \> **Origin Host**, and click **Modify**.
-3.  Select the type of domain name to speed up, and click **OK**.
-
-    ![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/65088/cn_zh/1533113718516/D30.jpg)
-
+3.  Select the type of domain name to speed up, and click **OK**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13456/15421636614386_en-US.png)
 
 ## Difference between the origin site and the origin host {#section_o4x_ysw_ydb .section}
 
