@@ -49,7 +49,7 @@ HTML5 定义的 WebSocket 协议，能更好的节省服务器资源和带宽，
 您需要通过指定websocket计费类型并且计费类型生效后，才能正式使用websocket功能。
 
 1.  登录[全站加速控制台](https://dcdn.console.aliyun.com)。
-2.  单击**变更计费类型**。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/23353/154017671113821_zh-CN.png)
+2.  单击**变更计费类型**。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/23353/154443144213821_zh-CN.png)
 3.  单击**去开通**，即可开通Websocket。
 4.  等待Websocket生效。
 
@@ -66,7 +66,7 @@ HTML5 定义的 WebSocket 协议，能更好的节省服务器资源和带宽，
 
 1.  在域名配置页，选择您想要使用Websocket的域名，单击**配置**。
 2.  单击左侧导航栏 **Websocket**。
-3.  打开Websocket开关，设置心跳时间和回源协议。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/23353/154017671113829_zh-CN.png)
+3.  打开Websocket开关，设置心跳时间和回源协议。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/23353/154443144213829_zh-CN.png)
 
     **说明：** 心跳时间默认60秒。 回源协议默认为不选定，您需要自行指定。
 
