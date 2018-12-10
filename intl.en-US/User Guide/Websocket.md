@@ -49,7 +49,7 @@ The WebSocket protocol defined by HTML5 can conserve server resources and bandwi
 You must first specify the billing method of Websocket and wait until the billing method takes effect before you use Websocket.
 
 1.  Log on to the [DCDN console](https://dcdn.console.aliyun.com).
-2.  Click **Change Billing Method**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/23353/154443144513821_en-US.png)
+2.  Click **Change Billing Method**.
 3.  Click **Activate** to activate Websocket.
 4.  Wait until Websocket is activated.
 
