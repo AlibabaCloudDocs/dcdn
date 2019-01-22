@@ -14,12 +14,12 @@ HTTP/2 Benefits
 
 ## Procedure {#section_k2c_l2d_zdb .section}
 
-1.  Log on to the [CDN console](https://cdn.console.aliyun.com).
+1.  Log on to the [DCDN console](https://dcdn.console.aliyun.com).
 2.  On the Domain Names page, select a domain name and click **Configure**.
 
     **Note:** Make sure that you have configured HTTPS certificates before enabling HTTP/2.
 
     -   If it is your first time configuring HTTPS certificate, wait for a while until your configuration coming into effect.
     -   If you disable HTTPS certificates when your HTTP/2 service is running, your HTTP/2 service will be disabled automatically.
-3.  Enable the HTTP/2 in **HTTPS Settings** \> **HTTP/2 Setting**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13472/15397454104585_en-US.png)
+3.  Enable the HTTP/2 in **HTTPS Settings** \> **HTTP/2 Setting**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13472/15481451834585_en-US.png)
 
