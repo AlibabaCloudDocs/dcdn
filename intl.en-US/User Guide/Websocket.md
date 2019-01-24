@@ -58,7 +58,7 @@ You must first specify the billing method of Websocket and wait until the billin
     -   If you are a new user, the billing of Websocket takes effect immediately.
     -   If you have purchased Websocket before, when the billing method is **Pay By Day**, Websocket takes effect on the next natural day. When the billing type is **Pay By Month**, Websocket takes effect at 00:00 on the first day of the next month. Keep the current billing items if the billing method has not changed.
 
-For more information about Websocket billing, see [Billing methods](https://www.aliyun.com/price/product).
+For more information about Websocket billing, see [Billing methods](https://www.alibabacloud.com/zh/product/cdn/pricing?spm=a2796.7980202.1167822.1.41f75f45r2PYZx).
 
 ## Use Websocket {#section_ymp_p4n_mfb .section}
 
