@@ -4,7 +4,7 @@ Alibaba Cloud’s Dynamic Route for CDN provides dynamic and static acceleration
 
 ## Stability {#section_uyq_fz2_xdb .section}
 
--   Over 1,000 Chinese nodes, over 200 outside mainland China nodes, more than 100 Gbps single-node bandwidth, and full-network bandwidth capacity exceeding 100 Tbps. This is sufficient to handle sudden surges in traffic, providing stable acceleration services.
+-   Alibaba Cloud Content Delivery Network \(CDN\) uses a global network of 2500+ nodes, 80 Gbps single-node bandwidth, and full-network bandwidth capacity of 120 Tbps. This is sufficient to handle sudden surges in traffic, providing stable acceleration services.
 -   Advanced distributed system architecture: Server load is balanced across the entire network to ensure node availability.
 -   Stable and efficient performance indicators: Over 95% hit rate and millisecond-level response time.
 -   Optimized transmission protocols: Supports HTTP/2 and SPDY transmission protocols for fast, efficient, and stable data transmission.
