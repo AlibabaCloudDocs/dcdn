@@ -26,7 +26,7 @@ Enable Private Bucket Back-to-Origin Authorization
 Turn off private Bucket back-to-origin authorization
 
 1.  Go to **Resource Access Management** \> **Role Management**.
-2.  **Delete** the roles you want to remove.
+2.  Delete **AliyunCDNAccessingPrivateOSSRole** authorization.
 3.  Private bucket authorization removal successful.
 
     **Note:** If your acceleration domain name is using a private bucket as the source site for back-to-origin, do not close or remove the private bucket authorization.
