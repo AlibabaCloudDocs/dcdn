@@ -58,7 +58,7 @@ HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费。�
     2.  在**HTTPS配置** \> **HTTPS证书**栏，单击**修改配置**。
     3.  打开**HTTPS安全加速**开关。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13469/15549495924540_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13469/15586643744540_zh-CN.png)
 
         **说明：** HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费，了解[计费详情](https://cn.aliyun.com/price/product#/dcdn/detail)。
 
@@ -79,6 +79,6 @@ HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费。�
 
     设置完成待证书生效后（设置HTTPS证书后约1小时后生效），使用HTTPS方式访问资源。如果浏览器中出现绿色HTTPS标识，表明当前与网站建立的是私密连接，HTTPS安全加速生效。如下图：
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13469/155494959244183_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13469/155866437444183_zh-CN.png)
 
 
