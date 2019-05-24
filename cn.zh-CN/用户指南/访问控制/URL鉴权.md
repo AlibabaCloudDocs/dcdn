@@ -2,14 +2,14 @@
 
 ## 功能介绍 {#section_cx5_pgd_zdb .section}
 
-URL鉴权功能旨在保护用户站点的内容资源不被非法站点下载盗用。采用防盗链方法添加 Referer 黑、白名单方式可以解决部分盗链问题。但是，由于 Referer 内容可以伪造，Referer 防盗链方式尚不能完全保护站点资源，因此采用URL鉴权方式保护用户源站资源更为安全有效。
+URL鉴权功能旨在保护用户站点的内容资源不被非法站点下载盗用。采用防盗链方法添加 Referer 黑、白名单方式可以解决部分盗链问题。但是，由于Referer内容可以伪造，Referer防盗链方式尚不能完全保护站点资源，因此采用URL鉴权方式保护用户源站资源更为安全有效。
 
 ## 工作原理 {#section_g1g_rgd_zdb .section}
 
-URL鉴权功能是通过阿里云CDN加速节点与客户资源站点配合，实现的一种 更为安全可靠的源站资源防盗方法。
+URL鉴权功能是通过阿里云CDN加速节点与客户资源站点配合，实现的一种更为安全可靠的源站资源防盗方法。
 
 1.  由CDN客户站点提供给用户加密 URL（包含权限验证信息）。
-2.  用户使用加密后的 URL 向加速节点发起请求。
+2.  用户使用加密后的URL向加速节点发起请求。
 3.  加速节点对加密 URL 中的权限信息进行验证以判断请求的合法性，正常响应合法请求，拒绝非法请求，从而有效保护CDN客户站点资源。
 
 ## URL鉴权方式 {#section_lfq_5gd_zdb .section}
@@ -37,8 +37,6 @@ http://DomainName/Filename?auth_key=timestamp-rand-uid-md5hash
 |uid|暂未使用（设置成0即可\)|
 |md5hash|通过md5算法计算出的验证串，数字和小写英文字母混合0-9a-z，固定长度32|
 
-0。
-
 鉴权步骤
 
 1.  CDN服务器拿到请求后，首先会判断请求中的 `timestamp` 是否小于当前时间。
@@ -63,7 +61,7 @@ http://DomainName/Filename?auth_key=timestamp-rand-uid-md5hash
     http:// cdn.example.com/video/standard/1K.html
     ```
 
-2.  密钥设为：aliyuncdnexp1234 \(由用户自行设置\)。
+2.  密钥设为：aliyuncdnexp1234 \(由用户自行设置\)。
 3.  鉴权配置文件失效日期为 2015年10月10日00:00:00，计算出来的秒数为1444435200。
 4.  则CDN服务器会构造一个用于计算Hashvalue的签名字符串：
 
@@ -230,14 +228,11 @@ http://cdn.example.com/test.flv?KEY1=a37fa50a5fb8f71214b1e7c95ec7a1bd&KEY2=55CE8
 
 ## URL鉴权代码示例 {#section_x4t_cld_zdb .section}
 
-请查看CDN周边工具中 [鉴权代码示例](../../../../intl.zh-CN/开发指南/周边工具/鉴权代码示例.md#) 文档。
+请查看CDN周边工具中[鉴权代码示例](../../../../intl.zh-CN/用户指南/域名管理/访问控制设置/鉴权代码示例.md#)文档。
 
 ## 操作步骤 {#section_dby_dld_zdb .section}
 
 1.  在 域名管理 页，选择域名，单击 **配置**。
 2.  在 **访问控制** \> **URL鉴权** 栏，单击 **修改配置**。
-3.  自定义设置参数。
-
-    ![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/65105/cn_zh/1533193689802/D45.jpg)
-
+3.  自定义设置参数。![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13476/15586690574608_zh-CN.png)
 
