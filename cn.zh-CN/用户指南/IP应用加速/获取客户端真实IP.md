@@ -7,7 +7,7 @@
 经过加速后源站的服务器获取到的源IP地址为CDN加速设备的IP地址。如果您需要从源站获取客户端的真实IP地址，有如下两种方式：
 
 -   Linux系统安装toa内核模块，使用方便且对应用完全透明，无需修改源站Linux服务器的应用程序即可获取真实客户端IP。
--   [Proxy Protocol](https://www.haproxy.com/blog/haproxy/proxy-protocol/)（本文简称PP），对系统内核没有要求，需要应用程序配合修改，通过解析文本字符串获取客户端IP。目前，Nginx和HAProxy已经支持。
+-   [Proxy Protocol](https://0x9.me/EaxHo)（本文简称PP），对系统内核没有要求，需要应用程序配合修改，通过解析文本字符串获取客户端IP。目前，Nginx和HAProxy已经支持。
 
 ## 安装toa模块 {#section_w24_xxt_1bv .section}
 
@@ -92,7 +92,7 @@ http {
 }
 ```
 
-**说明：** 其他支持PP的应用请参见[Proxy Protcol](https://www.haproxy.com/blog/haproxy/proxy-protocol/)。
+**说明：** 其他支持PP的应用请参见[Proxy Protcol](https://0x9.me/EaxHo)。
 
 不支持PP的应用程序，需要在TCP连接建立后，读取PP的文本行并进行字符串解析来获取客户端IP，字符示例如下所示。
 
