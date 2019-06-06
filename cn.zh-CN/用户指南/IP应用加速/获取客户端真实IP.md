@@ -79,7 +79,7 @@
 
 PP方式获取IP需要在控制台配置进行使用，功能打开后，加速服务器和源站建立TCP连接，在传输第一个用户payload前，会传递PP协议文本。
 
-配置Nginx接受PP，只需要将参数proxy\_protocol添加在`server`块中的`listen`指令后，详情请参见[Accepting the PROXY Protocol](Accepting%20the%20PROXY%20Protocol)。
+配置Nginx接受PP，只需要将参数proxy\_protocol添加在`server`块中的`listen`指令后，详情请参见[Accepting the PROXY Protocol](https://docs.nginx.com/nginx/admin-guide/load-balancer/using-proxy-protocol/)。
 
 ``` {#codeblock_xwz_rkm_ygv}
 http {
