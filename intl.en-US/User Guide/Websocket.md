@@ -66,7 +66,7 @@ You can configure Websocket after it takes effect.
 
 1.  On the Domain Names page, select a domain name, and click **Configure**.
 2.  In the left-side navigation pane, click **Websocket**.
-3.  Click the Websocket toggle, and set the interval for sending and receiving heartbeats and specify the protocol used for sending back-to-origin requests.![](images/13829_en-US.png)
+3.  Click the Websocket toggle, and set the interval for sending and receiving heartbeats and specify the protocol used for sending back-to-origin requests.
 
     **Note:** The interval is set to 60 seconds by default. The protocol used for sending back-to-origin requests is not specified by default. Specify it based on your needs.
 
