@@ -28,10 +28,10 @@ Note the following points when you copy configurations of a domain:
 
 4.  Select the domains to which you want to copy the configurations, and click **Next**. You can enter a keyword in the search bar to search for a domain.
 
-    ![Select domain](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17043/15658488238717_en-US.png)
+    ![Select domain](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17043/15658488758717_en-US.png)
 
 5.  In the **Copy Configurations** dialog box, click **OK**. 
 
-    ![Copy configuration confirmation](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17043/15658488248719_en-US.png)
+    ![Copy configuration confirmation](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/17043/15658488758719_en-US.png)
 
 
