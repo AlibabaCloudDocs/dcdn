@@ -2,7 +2,7 @@
 
 全站加速提供以下相关API接口。
 
-## 域名配置接口 {#section_iqw_rp8_upg .section}
+## 域名配置接口 {#section_w71_dlu_1qw .section}
 
 |API|描述|
 |---|--|
@@ -11,7 +11,7 @@
 |[BatchSetDcdnDomainConfigs](cn.zh-CN/API参考/域名配置接口/BatchSetDcdnDomainConfigs.md)|调用BatchSetDcdnDomainConfigs实现域名批量配置功能。|
 |[DeleteDcdnSpecificConfig](cn.zh-CN/API参考/域名配置接口/DeleteDcdnSpecificConfig.md)|调用DeleteDcdnSpecificConfig指定删除某个域名的某个配置。|
 
-## 数据监控接口 {#section_yxg_p0b_mft .section}
+## 数据监控接口 {#section_9wm_imq_sn5 .section}
 
 |API|描述|
 |---|--|
@@ -41,8 +41,9 @@
 |[DescribeDcdnDomainWebsocketBpsData](cn.zh-CN/API参考/数据监控接口/DescribeDcdnDomainWebsocketBpsData.md)|调用DescribeDcdnDomainWebsocketBpsData获取加速域名websocket协议的网络带宽监控数据。|
 |[DescribeDcdnDomainIpaBpsData](cn.zh-CN/API参考/数据监控接口/DescribeDcdnDomainIpaBpsData.md)|调用DescribeDcdnDomainIpaBpsData获取加速域名四层加速的网络带宽监控数据。|
 |[DescribeDcdnDomainWebsocketTrafficData](cn.zh-CN/API参考/数据监控接口/DescribeDcdnDomainWebsocketTrafficData.md)|调用DescribeDcdnDomainWebsocketTrafficData获取加速域名的 websocket 网络流量监控数据，单位：byte。|
+|[DescribeDcdnDomainIpaTrafficData](cn.zh-CN/API参考/数据监控接口/DescribeDcdnDomainIpaTrafficData.md)|调用DescribeDcdnDomainIpaTrafficData获取加速域名的四层加速网络流量监控数据，单位：byte。|
 
-## 域名管理接口 {#section_upb_ydj_zfj .section}
+## 域名管理接口 {#section_ckd_4w8_9gy .section}
 
 |API|描述|
 |---|--|
@@ -61,13 +62,13 @@
 |[DescribeDcdnCertificateDetail](cn.zh-CN/API参考/域名管理接口/DescribeDcdnCertificateDetail.md)|调用DescribeDcdnCertificateDetail获取证书详细信息。|
 |[DescribeDcdnCertificateList](cn.zh-CN/API参考/域名管理接口/DescribeDcdnCertificateList.md)|调用DescribeDcdnCertificateList获取证书列表信息。|
 
-## 日志类接口 {#section_8v3_v3c_1on .section}
+## 日志类接口 {#section_ewo_cxy_iov .section}
 
 |API|描述|
 |---|--|
 |[DescribeDcdnDomainLog](cn.zh-CN/API参考/日志类接口/DescribeDcdnDomainLog.md)|调用DescribeDcdnDomainLog获取指定域名的原始访问日志的下载地址。|
 
-## 服务类接口 {#section_xwy_ktw_bpj .section}
+## 服务类接口 {#section_ln9_adu_kgo .section}
 
 |API|描述|
 |---|--|
@@ -75,7 +76,7 @@
 |[DescribeDcdnUserResourcePackage](cn.zh-CN/API参考/服务类接口/DescribeDcdnUserResourcePackage.md)|调用DescribeDcdnUserResourcePackage查询DCDN用户当前流量包。|
 |[DescribeDcdnService](cn.zh-CN/API参考/服务类接口/DescribeDcdnService.md)|调用DescribeDcdnService查询DCDN服务状态。包括：当前计费类型、服务开通时间、下次生效的计费类型、当前业务状态等。|
 
-## 刷新预热接口 {#section_su9_otq_rb3 .section}
+## 刷新预热接口 {#section_tft_fvw_s3i .section}
 
 |API|描述|
 |---|--|
@@ -84,7 +85,7 @@
 |[PreloadDcdnObjectCaches](cn.zh-CN/API参考/刷新预热接口/PreloadDcdnObjectCaches.md)|调用PreloadDcdnObjectCaches将源站的内容主动预热到L2 Cache节点上，用户首次访问可直接命中缓存，缓解源站压力。|
 |[DescribeDcdnRefreshQuota](cn.zh-CN/API参考/刷新预热接口/DescribeDcdnRefreshQuota.md)|调用DescribeDcdnRefreshQuota查询当日剩余刷新、预热URL及目录的次数。|
 
-## IPA接口 {#section_rbt_aa2_r7b .section}
+## IPA接口 {#section_32c_etm_7h6 .section}
 
 |API|描述|
 |---|--|
