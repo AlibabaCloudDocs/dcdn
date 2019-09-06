@@ -33,32 +33,30 @@
  |
 |Scope|String|否|domestic|取值范围：**domestic**、**overseas**、**global**，默认**domestic**。
 
- 国际用户、国内L3及以上用户设置有效。
-
  |
 |TopLevelDomain|String|否|yourTopLevelDomain|顶级接入域。
 
  |
 
-Sources参数
+Sources各字段含义如下所示。
 
 |参数
 
 |类型
 
-|必要
+|是否必选
 
 |描述
 
 |
-|----|----|----|----|
+|----|----|------|----|
 |type
 
 |String
 
 |是
 
-|源站类型。取值：ipaddr：IP源站；domain：域名源站；oss：OSS Bucket为源站。
+|源站类型，取值：ipaddr：IP源站；domain：域名源站；oss：OSS Bucket为源站。
 
 |
 |content
@@ -76,7 +74,7 @@ Sources参数
 
 |否
 
-|可以指定443、80端口，也可以自定义端口。默认值80，443的话走https回源。
+|可以指定443、80端口，也可以自定义端口，默认值80。443走https回源。
 
 |
 |priority
@@ -85,7 +83,16 @@ Sources参数
 
 |否
 
-|源站地址对应的优先级，默认20。
+|源站地址对应的优先级，支持20和30，默认20。20是主，30是备。
+
+|
+|weight
+
+|String
+
+|否
+
+|回源权重，100以内，默认10。
 
 |
 
