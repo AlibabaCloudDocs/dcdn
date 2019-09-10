@@ -27,10 +27,10 @@ You can set an HTTP response header. Currently, nine HTTP request header paramet
 1.  On the Domain Names page, select a domain name, and click **Configure**.
 2.  Go to **Caching** \> **HTTP Header**, and click **Add**.
 
-    ![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/65094/cn_zh/1533105460668/D8.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13466/15456337784464_en-US.png)
 
 3.  You can set custom parameters for the HTTP header.
 
-    ![](images/4465_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13466/15456337784465_en-US.png)
 
 

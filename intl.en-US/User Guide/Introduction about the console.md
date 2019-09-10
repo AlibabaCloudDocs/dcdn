@@ -6,7 +6,7 @@ In the Dynamic Route for CDN \(DCDN\) console, you can add DCDN domain names, re
 
 Logging on to the DCDN console directs you to an overview of your account’s DCDN running status.
 
-![](images/4238_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13450/15456311534238_en-US.png)
 
 This page shows the following information:
 

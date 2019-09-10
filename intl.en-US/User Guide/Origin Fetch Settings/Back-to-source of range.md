@@ -21,8 +21,5 @@ To use the range origin fetch feature, an origin site must support Range request
 ## Procedure {#section_iqc_nww_ydb .section}
 
 1.  On the Domain Names page, select a domain name, and then click **Configure**.
-2.  Go to **Origin Fetch** \> **Range Origin Fetch** to enable range origin fetch.
-
-    ![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/68473/cn_zh/1533103680084/D5.png)
-
+2.  Go to **Origin Fetch** \> **Range Origin Fetch** to enable range origin fetch.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13459/15456318084409_en-US.png)
 

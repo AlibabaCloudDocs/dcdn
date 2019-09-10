@@ -12,9 +12,6 @@ DCDN supports blacklist rules. An IP address that is listed on the blacklist can
 ## Procedure {#section_iwq_3fd_zdb .section}
 
 1.  On the Domain Names page, select a domain name and click **Configure**.
-2.  Go to **Access Control** \> **IP Blacklist**, and click **Modify**.
-
-    ![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/65107/cn_zh/1533108143697/D15.jpg)
-
+2.  Go to **Access Control** \> **IP Blacklist**, and click **Modify**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13474/154563382534856_en-US.png)
 3.  Configure the IP blacklist and then click OK.
 

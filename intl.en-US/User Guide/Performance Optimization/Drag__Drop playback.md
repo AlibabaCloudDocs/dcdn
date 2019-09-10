@@ -22,6 +22,6 @@ After receiving such a request from an end user and the Drag/Drop Playback funct
 1.  On the Domain Names page, select a domain, and click **Configure**.
 2.  Go to **Optimization \>** \> **Drag/Drop Playback** to enable this function.
 
-    ![](images/4665_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13479/15456341844665_en-US.png)
 
 

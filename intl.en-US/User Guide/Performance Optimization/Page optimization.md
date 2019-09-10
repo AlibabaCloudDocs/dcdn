@@ -8,4 +8,6 @@ The HTML beautifier feature allows you to delete comments and duplicate blank sp
 
 1.  On the Domain Names page, select a domain name, and click **Configure**.
 2.  Go to **Optimization** \> **HTML Beautifier** to enable HTML Beautifier.
+3.  ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13481/15456342264676_en-US.png)
+
 

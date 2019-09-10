@@ -38,7 +38,7 @@ HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费。�
 
 证书相关：
 
--   开启 HTTPS安全加速 功能的加速域名，须要上传证书，包含证书/私钥，均为 PEM 格式。 参见[证书格式说明](https://help.aliyun.com/document_detail/65102.html)。
+-   开启 HTTPS安全加速 功能的加速域名，须要上传证书，包含证书/私钥，均为 PEM 格式。 参见[证书格式说明](https://www.alibabacloud.com/help/doc-detail/65102.htm)。
 
     **说明：** CDN采用的Tengine服务是基于Nginx的，因此只支持Nginx能读取的证书，即PEM格式。
 
@@ -58,7 +58,7 @@ HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费。�
     2.  在**HTTPS配置** \> **HTTPS证书**栏，单击**修改配置**。
     3.  打开**HTTPS安全加速**开关。
 
-        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13469/15586643744540_zh-CN.png)
+        ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13469/15586708254540_zh-CN.png)
 
         **说明：** HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费，了解[计费详情](https://cn.aliyun.com/price/product#/dcdn/detail)。
 
@@ -67,7 +67,7 @@ HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费。�
 
         -   若证书列表中无当前适配的证书可以选择自定义上传，需要设置证书名称后上传证书内容和私钥，该证书将会在**云盾证书服务**中保存，可以在**我的证书**部分查看。
 
-        -   仅支持PEM的证书格式，了解更多。[证书格式说明](cn.zh-CN/用户指南/HTTPS设置/证书格式说明.md#)。
+        -   仅支持PEM的证书格式，了解更多。[证书格式说明](intl.zh-CN/用户指南/HTTPS设置/证书格式说明.md#)。
     5.  支持设置 **强制跳转**：自定义将用户的原请求方式进行强制跳转。
 
         例如开启 **强制HTTPS跳转** 后，用户发起了一个HTTP请求，服务端返回302重定向响应，原来的HTTP请求强制重定向为HTTPS请求。
@@ -79,6 +79,6 @@ HTTPS安全加速属于增值服务，开启后将产生HTTPS请求数计费。�
 
     设置完成待证书生效后（设置HTTPS证书后约1小时后生效），使用HTTPS方式访问资源。如果浏览器中出现绿色HTTPS标识，表明当前与网站建立的是私密连接，HTTPS安全加速生效。如下图：
 
-    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13469/155866437444183_zh-CN.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13469/155867082544183_zh-CN.png)
 
 

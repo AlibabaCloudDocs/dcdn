@@ -22,10 +22,7 @@ Supported scenario: Primary-secondary origin switchover.
 
 1.  On the Domain Names page, select a domain name, and click **Configure**.
 2.  Go to **Basic Settings** \> **Origin Information**, and click **Modify**.
-3.  Set the origin **IP** and **Priority**.
-
-    ![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/65091/intl_zh/1533110759243/D21.jpg)
-
+3.  Set the origin **IP** and **Priority**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13454/15453837464385_en-US.png)
 4.  Click **OK** for the settings to take effect.
 
     **Note:** Priority settings for multiple origin sites only support the IP and origin domain names. OSS domain names do not support the origin priority setting. Select the origin type that suits your needs and set the priority appropriately.

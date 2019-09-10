@@ -26,6 +26,6 @@ For example: `http://www.abc.com/a.jpg?x=1`. Request the URL to the CDN node.
 2.  Go to **Optimization** \> **Parameter Filtering**, and click **Modify**.
 3.  Click the **Parameter Filtering** switch.
 
-    ![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/65134/cn_zh/1533108768332/D18.jpg)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13480/15456341974673_en-US.png)
 
 

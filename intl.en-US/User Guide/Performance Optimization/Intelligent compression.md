@@ -10,6 +10,6 @@
 1.  On the Domain Names page, select a domain name, and click **Configure**.
 2.  Go to **Optimization** \> **File Compression** to enable this function.
 
-    ![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/65133/cn_zh/1533108612890/D17.jpg)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13478/15456340104660_en-US.png)
 
 

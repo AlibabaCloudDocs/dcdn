@@ -10,6 +10,6 @@ This feature identifies static files by file URI. The specified static files no 
 2.  Go to **Acceleration Rules** \> **Static URIs**, and click **Modify**.
 3.  Enter URIs. Resources on the specified static URIs use static acceleration and are cached in the edge node.
 
-    ![](images/4415_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13463/15456337394415_en-US.png)
 
 

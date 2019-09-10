@@ -14,12 +14,12 @@ Dynamic Origin Protocol Policy
 
 1.  On the Domain Names page, select a domain name, and click **Configure**.
 2.  Go to **Acceleration Rules** \> **Dynamic Origin Protocol Policy**, and click **Modify**.
-3.  ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13457/15421634694392_en-US.png)
-4.  Select a Redirect Type: **Match Client**, **HTTP**, or **HTTPS**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13457/15421634694393_en-US.png)
+3.  ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13457/15456315614392_en-US.png)
+4.  Select a Redirect Type: **Match Client**, **HTTP**, or **HTTPS**.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13457/15456315614393_en-US.png)
 
 Static Origin Protocol Policy
 
 1.  On the Domain Names page, select a domain name, and click **Configure**.
 2.  Go to **Origin Fetch** \> **Static Origin Protocol Policy** and click the switch.
-3.  ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13457/15421634694395_en-US.png)
+3.  ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13457/15456315614395_en-US.png)
 

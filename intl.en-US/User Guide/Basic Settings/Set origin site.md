@@ -19,7 +19,5 @@ When you set the origin type to IP or origin domain, you can configure multiple 
 
 ## Ports {#section_vpb_grw_ydb .section}
 
-Ports 80 \(for HTTP\) and 443 \(for HTTPS\) are currently supported. Custom ports are not currently supported.
-
-![](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/pic/65086/cn_zh/1533109379037/D20.png)
+Ports 80 \(for HTTP\) and 443 \(for HTTPS\) are currently supported. Custom ports are not currently supported.![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13453/15456314604383_en-US.png)
 

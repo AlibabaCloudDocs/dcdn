@@ -10,7 +10,7 @@ The feature identifies static files by file path. The specified static files no 
 2.  Go to **Acceleration Rules** \> **Static Paths**, and click **Modify**.
 3.  Specify the caching path.
 
-    ![](images/4413_en-US.png)
+    ![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/13461/15456325324413_en-US.png)
 
     The resource for the static PATH uses the edge node cache for the user's immediate acquisition, achieve better acceleration effects.
 
